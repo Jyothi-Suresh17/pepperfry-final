@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat
+  ;
+  box-sizing: border-box;
+}
+
+.grad{
+ background-color: rgba(238, 129, 129, 0.252);
+}
+
+.gra{
+  background-color: rgba(174, 238, 216, 0.459);
+}
+
+.trmm{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+      overflow: hidden;
+}
+
+.pointer-cursor {
+  cursor: pointer; /* Hand pointer, commonly used for links */
+}
+
+.position-relative {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-overlayy{
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.imm {
+  filter: grayscale(100%);
+ 
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.place-card {
+  flex: 0 0 auto;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+}
+
+.place-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.place-name {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.scroll-button.left {
+  left: 0;
+}
+
+.scroll-button.right {
+  right: 0;
+}
+
+.btn-app-store {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0070c9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-app-store .app-store-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
