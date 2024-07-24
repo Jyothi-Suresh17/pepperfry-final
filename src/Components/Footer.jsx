@@ -253,7 +253,7 @@ function Footer() {
           </div>
           <div className="col-md-2"></div>
         </div>
-        <div style={{fontSize:'15px'}} className="text-center text-secondary">
+        <div style={{fontSize:'15px'}} className="text-center text-secondary py-3">
         © Copyright Pepperfry Limited
         </div>
       </div>
